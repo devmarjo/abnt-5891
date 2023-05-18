@@ -1,6 +1,6 @@
 {
   "name": "abnt-5891",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc",
-    "build": "babel src -d dist"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
