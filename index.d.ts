@@ -1,7 +1,8 @@
 import "webrtc";
 const round: any = require('./dist')
-const roundAbnt: float = function(value: float, decimais: int) {
+let roundAbnt: function
+roundAbnt = function(value: float, decimais: int): float {
   return round(value, decimais)
 }
 
-module.exports = roundAbnt
+export default roundAbnt
